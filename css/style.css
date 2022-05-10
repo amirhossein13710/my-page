@@ -1,0 +1,316 @@
+#navbar{
+    background: url("../images/KI4USMJKE9.jpg") center / cover no-repeat fixed;
+    backdrop-filter: brightness(60%);
+}
+#navbar::before{
+    position: absolute;
+    content: '';
+    background-color: rgba(0 , 0 , 0 , 0.5);
+    top:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar-collapse{
+    justify-content: space-around;
+}
+#navbar img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#navbar button{
+    color:rgb(241 183 11);  
+}
+#navbar ul{
+    border-top: 1px solid rgb(241 183 11);
+    margin-bottom: 20px;
+}
+#navbar li a{
+    color: white; 
+    display: inline-block 
+}
+#navbar li a:hover{
+    color: rgb(241 183 11);
+    transform: scale(1.1);
+}
+#navbar input{
+    border-radius: 5px;
+    float: right;
+}
+#navbar form{
+    position: relative;
+    width: 300px;
+}
+#navbar .btn-search{
+    position: absolute;
+    left: 2px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    line-height: 1.7em;
+    color: #202130;
+    
+}
+#about{
+    padding: 60px 0;
+    position: relative;
+    text-align: center;
+}
+.section-header{
+    text-align: center;
+}
+.section-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #e4e2e2;
+    text-shadow: 3px 1px 5px black;
+}
+.section-header h5{
+    color:#e4e2e2 ;
+    text-shadow: 3px 1px 5px black;
+}
+.section-header h3{
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: #e4e2e2;
+}
+.section-header p {
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+    font-size: 16px;
+    color: #e4e2e2;
+    text-shadow: 3px 1px 5px black;
+    font-weight: normal;
+
+}
+.section-header .btn{
+    color: rgb(241 183 11) !important;
+    background-color:#202130;
+    box-shadow: 0px 5px 10px 1px #372f2fe3;
+    transition: 0.5s;
+    
+}
+.section-header .btn:hover{
+    color: white !important;
+    background-color:#182130;
+    transform: scale(1.1);
+}
+.section-header .btn:active{
+    transform: translateY(-3px);
+}
+#main{
+    background-color: #182130;
+    padding: 60px 0;
+}
+#main h3{
+    text-shadow: none;
+}
+#main p{
+    text-shadow: none;
+}
+#main .card-text{
+    color:#444;
+    font-size: 14px;
+    text-align: justify;
+}
+#skills{
+    padding: 60px 0;
+}
+#skills h3{
+    color: #0b133f;
+}
+#skills p{
+    text-shadow: none;
+    color: #0b133f;
+}
+#skills .progress {
+    height: 35px;
+    margin-bottom: 10px;
+}
+#skills-content span{
+
+    color: rgb(241 183 11);
+}
+#skills .progress-bar{
+    transition-duration: 1.5s;
+    width: 0;
+    background-color: #0b133f;
+    font-size: 16px;
+    padding-top: 3px;
+}
+#portfolio{
+    padding: 60px 0;
+    background-color: #eee;
+}
+#portfolio h3{
+    color: #0b133f;
+}
+#portfolio-filter {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+#portfolio-filter li{
+    flex-basis: 90px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(212, 212, 212, 0.1);
+    transition-duration: 0.3s;
+}
+#portfolio-filter li:hover , #portfolio-filter .filter-active{
+    color: rgb(241 183 11);
+    background-color: #0b133f;
+}
+#portfolio .card-img-overlay{
+    padding: 0 30%;
+    background-clip:content-box;
+    transition-duration: 0.3s;
+}
+#portfolio .card-img-overlay:hover{
+    padding: 0 0;
+    background-color: rgba(0 , 0 , 0 , 0.5);
+}
+#portfolio .card-img-overlay a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    line-height: 2.1em;
+    font-size: 18px;
+    margin: 30% 8px;
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+#portfolio .card-img-overlay:hover a{
+    opacity: 1;
+}
+#portfolio .card-img-overlay a:hover{
+    background-color: #0b133f;
+    color: rgb(241 183 11);
+}
+#portfolio .card-body a{
+    text-decoration: none;
+}
+#footer{
+    padding: 60px 0;
+    background-color: #222;
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+}
+footer h5{
+    border-bottom: 2px solid rgb(241 183 11);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+#footer li{
+    padding: 6px 0;
+    border-bottom: 1px solid rgb(241 183 11);
+}
+#footer li:first-child{
+    padding-top: 0;
+}
+#footer li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+#footer li a:hover{
+    color: aqua;
+}
+#footer li i{
+    color:aqua;
+}
+#footer .links{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#footer .links a{
+    font-size: 18px;
+    background-color: #444;
+    color: white;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-left: 4px;
+    text-align: center;
+    line-height: 2em;
+    transition-duration: 0.3s;
+}
+#footer .links a:hover{
+    box-shadow: 0px 0px 14px 3px cyan;
+    background-color: white;
+    color: black;
+}
+#footer input{
+    float: righgt;
+    width: 70%;
+    padding: 4px;
+    border: 0;
+}
+#footer button{
+    float: left;
+    border: 0;
+    width: 30%;
+    padding: 4px;
+    cursor: pointer;
+    background-color: aqua;
+    color: #0b133f;
+}
+#footer button:hover{
+    background-color: cornflowerblue;
+}
+@media(min-width:768px){
+    #navbar ul{
+        border-top: 0;
+        margin-bottom: 0;
+    }
+    #navbar form{
+        width: 150px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 0;
+    }
+    .section-header h2{
+        font-size: 36px;
+    }
+    .section-header h3{
+        font-size: 32px;
+    }
+
+}
+
+@media(min-width:992px){
+   
+}
+@media(min-width:1112px){
+    #navbar img{
+        margin-right: 50px;
+    }
+    #navbar form{
+        width: 350px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+
+
